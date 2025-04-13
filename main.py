@@ -213,7 +213,7 @@ if __name__ == "__main__":
     
     st.markdown("<h1 style='text-align: center; font-size: 40px; color: red;'>🚗 CO2 Emission Predictor for Vehicles in Canada</h1>", unsafe_allow_html=True)
 
-    st.markdown("Machine Learning Engineers : Allabaksh S[G24AIT2164] and Jafar Sadiq[G24AIT2152]")
+    st.markdown("**Machine Learning Engineers :** Allabaksh S[G24AIT2164] and Jafar Sadiq[G24AIT2152]")
 
     st.markdown("This app predicts the **CO2 Emissions (g/km)** from vehicle specifications using a trained machine learning model.")
 
