@@ -22,7 +22,7 @@ def load_data():
     st.markdown(
         f"""<div style="margin-bottom:10px;">
             <a href="{gdrive_download_link}" download target="_blank"
-            style="font-size:16px; color:green; text-decoration:underline;">
+            style="font-size:13px; color:green; text-decoration:underline;">
             ⬇️  Click here to download CO2 CSV file if you do not have the CO2 CSV file </a>
         </div>""",
         unsafe_allow_html=True
