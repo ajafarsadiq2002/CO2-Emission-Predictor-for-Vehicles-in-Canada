@@ -213,7 +213,7 @@ if __name__ == "__main__":
     
     st.markdown("<h1 style='text-align: center; font-size: 40px; color: red;'>🚗 CO2 Emission Predictor for Vehicles in Canada</h1>", unsafe_allow_html=True)
 
-    st.markdown("<h1 style='text-align: left; font-size: 20px; color: red;'>**Machine Learning Engineers :** Allabaksh S[G24AIT2164] and Jafar Sadiq[G24AIT2152]</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: left; font-size: 15px; color: black;'>Machine Learning Engineers : Allabaksh S[G24AIT2164] and Jafar Sadiq[G24AIT2152]</h1>")
 
     # st.markdown("<h1 color: red;>**Machine Learning Engineers :** Allabaksh S[G24AIT2164] and Jafar Sadiq[G24AIT2152]")
 
