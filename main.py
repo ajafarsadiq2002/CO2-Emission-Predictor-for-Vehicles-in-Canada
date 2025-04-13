@@ -16,6 +16,18 @@ import streamlit.components.v1 as components
 def load_data():
     st.markdown("<h1 style='font-size: 30px;'>📥 Data Uploading</h1>", unsafe_allow_html=True)
 
+    gdrive_file_id = "1CR76ifbAfm5RcACa7MP5e62OczD5VAag"
+    gdrive_download_link = f"https://drive.google.com/uc?export=download&id={gdrive_file_id}"
+    
+    st.markdown(
+        f"""<div style="margin-bottom:10px;">
+            <a href="{gdrive_download_link}" download target="_blank"
+            style="font-size:20px; color:green; text-decoration:underline;">
+            ⬇️  Click here to download CO2 CSV file if you do not have the CO2 CSV file </a>
+        </div>""",
+        unsafe_allow_html=True
+    )
+
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
     
     if uploaded_file is not None:
